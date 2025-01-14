@@ -1,0 +1,1107 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.34f1 (4886f5360533) revision 4753141'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/CIIT/Documents/GitHub/Fundamentals_week1/week2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54327
+Successfully changed project path to: C:/Users/CIIT/Documents/GitHub/Fundamentals_week1/week2
+C:/Users/CIIT/Documents/GitHub/Fundamentals_week1/week2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2780] Host "[IP] 10.2.0.15 [Port] 0 [Flags] 2 [Guid] 829968261 [EditorId] 829968261 [Version] 1048832 [Id] WindowsEditor(7,CIITSHSDTP50) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2780] Host "[IP] 10.2.0.15 [Port] 0 [Flags] 2 [Guid] 829968261 [EditorId] 829968261 [Version] 1048832 [Id] WindowsEditor(7,CIITSHSDTP50) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.34f1 (4886f5360533)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/CIIT/Documents/GitHub/Fundamentals_week1/week2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007554 seconds.
+- Loaded All Assemblies, in  0.268 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.199 seconds
+Domain Reload Profiling: 466ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (199ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.530 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (348.1 KB). Loaded Objects now: 5391.
+Memory consumption went from 198.8 MB to 198.5 MB.
+Total: 5.412800 ms (FindLiveObjects: 0.704800 ms CreateObjectMapping: 0.444800 ms MarkObjects: 3.947900 ms  DeleteObjects: 0.314200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2586.369946 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fceff49e2fbc361de24406334225dfc') in 0.018267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (75ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (988ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4794 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 5427.
+Memory consumption went from 173.4 MB to 173.1 MB.
+Total: 3.261300 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.254000 ms MarkObjects: 2.560300 ms  DeleteObjects: 0.108800 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.621355 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad80ba5e6109085775abba960972809b') in 0.014100 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 523.690007 seconds.
+  path: Assets/kenney_toy-car-kit
+  artifactKey: Guid(6d33551e9e9898a48945d98bacd3e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit using Guid(6d33551e9e9898a48945d98bacd3e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7b0f4f6ea6cb9afc8fbedbe29a9f907') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.180779 seconds.
+  path: Assets/kenney_toy-car-kit/Preview.png
+  artifactKey: Guid(11d80d074ee9f90468cbe0b57fafb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Preview.png using Guid(11d80d074ee9f90468cbe0b57fafb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e5f68e8e90764599c5a02ed3fc521e7') in 0.042149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_toy-car-kit/Preview (Track Wide).png
+  artifactKey: Guid(c7d539dd1c7218745998ceb9a49849db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Preview (Track Wide).png using Guid(c7d539dd1c7218745998ceb9a49849db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '821cd925aaf5ee9000d73a1c0fa81aa7') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_toy-car-kit/Preview (Track Striped Wide).png
+  artifactKey: Guid(85f83023c7f8b224ba11281f8a840b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Preview (Track Striped Wide).png using Guid(85f83023c7f8b224ba11281f8a840b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cad827f4c5a827f2740f043a283140df') in 0.009763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_toy-car-kit/Preview (Variation A).png
+  artifactKey: Guid(f83c13361ed845a48a1cac0cc4c09766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Preview (Variation A).png using Guid(f83c13361ed845a48a1cac0cc4c09766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c4efd82fb3409e44f5323de30f50180') in 0.008949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_toy-car-kit/Preview (Track Road Wide).png
+  artifactKey: Guid(bd6b5b95f6c9d9d49bbdf7d207a672ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Preview (Track Road Wide).png using Guid(bd6b5b95f6c9d9d49bbdf7d207a672ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7edf36f873e8f2ffd9c056f05efeb713') in 0.146990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.619723 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/gate-finish.fbx
+  artifactKey: Guid(d89f4b525d639f542a4a6f6246745227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/gate-finish.fbx using Guid(d89f4b525d639f542a4a6f6246745227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a42e31b464feb455e3d0cbb5fbed5083') in 0.961629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-corner-small.fbx
+  artifactKey: Guid(323b1579b24be864f9a5e4cef7507e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-corner-small.fbx using Guid(323b1579b24be864f9a5e4cef7507e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f38e260a07d4fbcb405bdcf3837bac82') in 0.020564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight.fbx
+  artifactKey: Guid(11d3576ed6ecae04b84cdf9fb10413da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight.fbx using Guid(11d3576ed6ecae04b84cdf9fb10413da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e0c4cbcb92b574e9fceb98f25cdb16a') in 0.018821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bump-up.fbx
+  artifactKey: Guid(a12ca7aefe37b7846a962b09fe70b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bump-up.fbx using Guid(a12ca7aefe37b7846a962b09fe70b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6c1c2937293929836ad3e747cdec2f5') in 0.019686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-curve.fbx
+  artifactKey: Guid(dbbdd1a2ca8af744fb37be87b19d0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-curve.fbx using Guid(dbbdd1a2ca8af744fb37be87b19d0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73f85ff5eaf0c5b9bf6fe9c9abbe38e9') in 0.017525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-hill-end.fbx
+  artifactKey: Guid(f8add8ef4200d0249a3e7a4891a00766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-hill-end.fbx using Guid(f8add8ef4200d0249a3e7a4891a00766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d78227a513ef391b16a6ba8c6aad1e8') in 0.017997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-cap-back.fbx
+  artifactKey: Guid(6d0c3fe541b1a5f4181e13ea25a86c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-cap-back.fbx using Guid(6d0c3fe541b1a5f4181e13ea25a86c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98f182be5f8ef13000b962263b911879') in 0.017881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-skew-right.fbx
+  artifactKey: Guid(42357896d11bbde4e8dca11deaf971ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-skew-right.fbx using Guid(42357896d11bbde4e8dca11deaf971ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4900baa50c7573611349a5b576d9377') in 0.019510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-looping.fbx
+  artifactKey: Guid(b1161f88afb62a84f98dea75607c42ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-looping.fbx using Guid(b1161f88afb62a84f98dea75607c42ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5aa1119e2526e5f15d6971f3575c68b3') in 0.017368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-corner-small-ramp.fbx
+  artifactKey: Guid(b254155d50102204e912520473a9d1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-corner-small-ramp.fbx using Guid(b254155d50102204e912520473a9d1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24f0768a58e16e4a9fbe36c894aeed32') in 0.018249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-corner-large-ramp.fbx
+  artifactKey: Guid(5a95b9f22fac6dc4eba332b6853e2ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-corner-large-ramp.fbx using Guid(5a95b9f22fac6dc4eba332b6853e2ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9a77d811cc91ed153321a09453a97a6') in 0.019964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-skew-left.fbx
+  artifactKey: Guid(47304f391d17096489b2040657217247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-skew-left.fbx using Guid(47304f391d17096489b2040657217247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19dbafd0db24133df55c52cb2223e9f4') in 0.018953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-hill-end.fbx
+  artifactKey: Guid(29ef3f04c9c786d4781977800540e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-hill-end.fbx using Guid(29ef3f04c9c786d4781977800540e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab38319e2510d539480d9de8d37b5c47') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-corner-large.fbx
+  artifactKey: Guid(652e06f0b4142614f8254d591e3c6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-corner-large.fbx using Guid(652e06f0b4142614f8254d591e3c6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '128ba7346eb038c6f2b4e03bc35188e6') in 0.018779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-curve.fbx
+  artifactKey: Guid(6dc21d84ef21f054d9038fc25aa5f54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-curve.fbx using Guid(6dc21d84ef21f054d9038fc25aa5f54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a71c9bb99174cf207ce6c99bb5d77eb') in 0.018347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/item-coin-bronze.fbx
+  artifactKey: Guid(23077ff023b14cd4881520feaed2ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/item-coin-bronze.fbx using Guid(23077ff023b14cd4881520feaed2ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '426d2716a63b2ba71075470bff4532b7') in 0.017903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-hill-complete-half.fbx
+  artifactKey: Guid(63b25747f0dbba1478f8a9ea151259bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-hill-complete-half.fbx using Guid(63b25747f0dbba1478f8a9ea151259bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3532da42f7f880c416757bf16cedeae0') in 0.018364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight.fbx
+  artifactKey: Guid(829cfa57198907e49882d93e57aad602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight.fbx using Guid(829cfa57198907e49882d93e57aad602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f77ea93d6147c9c07217e1869f47a35') in 0.019417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-curve.fbx
+  artifactKey: Guid(fef325e15f23fea48a5bbf1988dd4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-curve.fbx using Guid(fef325e15f23fea48a5bbf1988dd4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21d74a20a49bbb1a38e9d25574f6920e') in 0.018684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/supports-wide.fbx
+  artifactKey: Guid(833de5a88ea440743b3ffbab3febfa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/supports-wide.fbx using Guid(833de5a88ea440743b3ffbab3febfa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ffdd873eac12f6fd5cab50feca1f08a4') in 0.018264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-wide-cap-back.fbx
+  artifactKey: Guid(8424124a4b00bee4087d4912a3c9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-wide-cap-back.fbx using Guid(8424124a4b00bee4087d4912a3c9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3615915243811fe37a52e580d70f5cca') in 0.018738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-bump-up.fbx
+  artifactKey: Guid(ecd0612cd3d5b7a48a355e142e04b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-bump-up.fbx using Guid(ecd0612cd3d5b7a48a355e142e04b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1589999ef5d63723071fdc4462f9034') in 0.019996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-skew-right.fbx
+  artifactKey: Guid(c8fd156accdf9a44fbeaa87a61fc11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-skew-right.fbx using Guid(c8fd156accdf9a44fbeaa87a61fc11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0bc0930d892531d4335f3ad235ca25c8') in 0.018762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-wide-corner-small-ramp.fbx
+  artifactKey: Guid(1b7085d6df4d8814abec8bbc6b187503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-wide-corner-small-ramp.fbx using Guid(1b7085d6df4d8814abec8bbc6b187503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad3746ade97e63ee7bfec3df58486113') in 0.018239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-hill-complete.fbx
+  artifactKey: Guid(e42f6f290d2df6341bbfa69a8926db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-hill-complete.fbx using Guid(e42f6f290d2df6341bbfa69a8926db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5867e7825d1f6e81df42860eb223ecc9') in 0.019381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-skew-right-side.fbx
+  artifactKey: Guid(0f62f6d05b1606b49af7ed46008a372c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-straight-skew-right-side.fbx using Guid(0f62f6d05b1606b49af7ed46008a372c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b41bf936b36186cf6ae68bed7838593a') in 0.019471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-skew-left.fbx
+  artifactKey: Guid(a98a10f025ef17f4682adde1de5b6312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-wide-straight-skew-left.fbx using Guid(a98a10f025ef17f4682adde1de5b6312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4619a52a6d9d5bd400cea4a294c0205') in 0.019223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bend-large.fbx
+  artifactKey: Guid(e8631428d41778340aa39a17a2ab2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bend-large.fbx using Guid(e8631428d41778340aa39a17a2ab2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42cc14dd31fafcfd65a2441761b2ad16') in 0.017776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-hill-complete-half.fbx
+  artifactKey: Guid(0744c2b396a93dc49aeab1860e46abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-hill-complete-half.fbx using Guid(0744c2b396a93dc49aeab1860e46abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69e7f59ad230ba358c71c7dd5c7457e0') in 0.019459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow.fbx
+  artifactKey: Guid(7cc36af445a17254d84d602bd95131d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow.fbx using Guid(7cc36af445a17254d84d602bd95131d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53e9e6c3de329d788d8ba0e9f0eba45b') in 0.019202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-cap-front.fbx
+  artifactKey: Guid(d72c59e5bb50b024a98d03eeb1a1d99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-cap-front.fbx using Guid(d72c59e5bb50b024a98d03eeb1a1d99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fb2208304c2ecc31fd9e828e81709d3') in 0.017881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bend.fbx
+  artifactKey: Guid(53df32d802d0ddb458936363dcc79948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bend.fbx using Guid(53df32d802d0ddb458936363dcc79948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cf3832d3112ca70a157479ef6adc31a') in 0.016546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-corner-large-ramp.fbx
+  artifactKey: Guid(59bf2ad9153e34a45804f00d4c9304e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-corner-large-ramp.fbx using Guid(59bf2ad9153e34a45804f00d4c9304e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca0730446373f6d324d0de9b807fb2d8') in 0.018414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-cap-front.fbx
+  artifactKey: Guid(72ea2987ecaacf34995f06aad2f3aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-narrow-cap-front.fbx using Guid(72ea2987ecaacf34995f06aad2f3aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '778077034bb4d8347a4f7b85674a6434') in 0.018796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-corner-large-ramp.fbx
+  artifactKey: Guid(738692675bdc618439251945bbc74799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-corner-large-ramp.fbx using Guid(738692675bdc618439251945bbc74799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04d9fb906ebd300300bde696cdc0aaa2') in 0.018453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-skew-right-side.fbx
+  artifactKey: Guid(7e6cf0c9b4a44ad48ababa47f2f43251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-skew-right-side.fbx using Guid(7e6cf0c9b4a44ad48ababa47f2f43251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e07e0ac91fabc27c55c463adf624b07c') in 0.016718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-skew-left-side.fbx
+  artifactKey: Guid(8e5879d214f7c1046ba07208fe8681e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-skew-left-side.fbx using Guid(8e5879d214f7c1046ba07208fe8681e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae2bdea6eddc19098a5c34fb9d86d53e') in 0.025826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bump-down.fbx
+  artifactKey: Guid(dec3e2b2bbd0fa840992381200fd1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-road-narrow-straight-bump-down.fbx using Guid(dec3e2b2bbd0fa840992381200fd1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ff28340006f34d30a52500220475a38') in 0.017569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-wide-cap-front.fbx
+  artifactKey: Guid(b48be5c5ebf8766408a6afe5255370e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-wide-cap-front.fbx using Guid(b48be5c5ebf8766408a6afe5255370e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cecb635066d022561c5463cfff4e795a') in 0.018121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/item-cone.fbx
+  artifactKey: Guid(99293c3ed8a7d3444a5e857798298937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/item-cone.fbx using Guid(99293c3ed8a7d3444a5e857798298937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b75470f3a11bc74a9e93ebec0673b8f') in 0.017243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-hill-complete.fbx
+  artifactKey: Guid(dc675b7694865f540a0f4743f221b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-hill-complete.fbx using Guid(dc675b7694865f540a0f4743f221b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8c68ceac0898caf398ec96a8f32589b') in 0.016943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-hill-complete.fbx
+  artifactKey: Guid(4ee73405a06195445892d7de36756414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-narrow-straight-hill-complete.fbx using Guid(4ee73405a06195445892d7de36756414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a73536c7bf057a2f4bf94b1c574b6429') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-bend-large.fbx
+  artifactKey: Guid(d0799dfdbd98a9542b673507aaf0a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-bend-large.fbx using Guid(d0799dfdbd98a9542b673507aaf0a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a5ae147d046df9d266900824f046117') in 0.017209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-hill-end.fbx
+  artifactKey: Guid(e2fa2a5a0fc5c3d42a6ce290c3a87c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-striped-wide-straight-hill-end.fbx using Guid(e2fa2a5a0fc5c3d42a6ce290c3a87c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '228f4a54137beade9ce0b1bb68711c88') in 0.018026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.953485 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-wide-straight-bend-large.fbx
+  artifactKey: Guid(b043ec7bce3029e4c9cf4aa5e40bace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-wide-straight-bend-large.fbx using Guid(b043ec7bce3029e4c9cf4aa5e40bace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa5d75b993d56251d642a3220a9d4733') in 0.020092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/vehicle-vintage-racer.fbx
+  artifactKey: Guid(68ddccc1fd053024ca28fc87c73adf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/vehicle-vintage-racer.fbx using Guid(68ddccc1fd053024ca28fc87c73adf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3c2193fce656ea36ebad5660db7ded4') in 0.040775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/track-wide-straight-hill-complete-half.fbx
+  artifactKey: Guid(4fa7ba31a53cf83479a7c042cdc59982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/track-wide-straight-hill-complete-half.fbx using Guid(4fa7ba31a53cf83479a7c042cdc59982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '739eeb59403f1a1dfbc88273c1007f57') in 0.020269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/tree-pine.fbx
+  artifactKey: Guid(71facd2ebb10b214ebf3921712ae1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/tree-pine.fbx using Guid(71facd2ebb10b214ebf3921712ae1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e17cc0e1b931efad79719c53960f9aa') in 0.019635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/vehicle-truck.fbx
+  artifactKey: Guid(9649ead9d69cd024f9c139415d40d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/vehicle-truck.fbx using Guid(9649ead9d69cd024f9c139415d40d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18c1b9783abef98baed270db428114cc') in 0.039541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/vehicle-suv.fbx
+  artifactKey: Guid(84a2a6f5534c10d41b21452884ca2017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/vehicle-suv.fbx using Guid(84a2a6f5534c10d41b21452884ca2017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a276733960c43f9cea6fbd49d261555') in 0.038661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/vehicle-monster-truck.fbx
+  artifactKey: Guid(5c99c40ba479e16489c343b0559e5844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/vehicle-monster-truck.fbx using Guid(5c99c40ba479e16489c343b0559e5844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9edc5dbd4690a4763b59aa5d8fca185e') in 0.045362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2671.443563 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/Textures
+  artifactKey: Guid(63565b63221de854e937a9ea921d0c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/Textures using Guid(63565b63221de854e937a9ea921d0c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48eb950d49af7489c584fac44dd94be2') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079212 seconds.
+  path: Assets/kenney_toy-car-kit/Models/FBX format/Textures/colormap.png
+  artifactKey: Guid(90fc6f42fe6fe274c82ad25377546349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/FBX format/Textures/colormap.png using Guid(90fc6f42fe6fe274c82ad25377546349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26a90737954596d2bdd73185386adca7') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 317.090036 seconds.
+  path: Assets/kenney_toy-car-kit/Models/OBJ format/wheel-small.obj
+  artifactKey: Guid(0f6d21005a76ec642bc6bd6ada5230a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_toy-car-kit/Models/OBJ format/wheel-small.obj using Guid(0f6d21005a76ec642bc6bd6ada5230a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52a4009583099dd334feb47a5daef40d') in 0.043106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 220.246427 seconds.
+  path: Assets/Fantasy Skybox FREE
+  artifactKey: Guid(0a33f992e13add9438b6e744a7dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE using Guid(0a33f992e13add9438b6e744a7dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85b3d9b7b78cc460f3535f54318b704e') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.575515 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps
+  artifactKey: Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps using Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8584b79cc898737aaa3875341f09b4eb') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.090053 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat
+  artifactKey: Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat using Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb2c751f6939ed7e30f27614edd87af7') in 0.095025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat
+  artifactKey: Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat using Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb0aa85d9b0ac49be183ff54adad9003') in 0.023522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat
+  artifactKey: Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat using Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '682f755b6cb0f6c9e6d8b5a4ed9f48f8') in 0.017486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat
+  artifactKey: Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat using Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8803a5c88f0d78c64623da07feb8a20b') in 0.022922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat
+  artifactKey: Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat using Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97872cb67b7de051fa4917ee17647403') in 0.014695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat
+  artifactKey: Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat using Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc4bef5a0973e04f8dc72145c2b1f6da') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.848920 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat
+  artifactKey: Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat using Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '123b0c5ae3477131adff3ea8bd7038d0') in 0.017494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
